@@ -81,7 +81,7 @@ const About = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md transition-colors w-full"
-              onClick={() => window.open('/resume.pdf', '_blank')}
+              onClick={() => window.open('/PortFolio/resume.pdf', '_blank')}
             >
               Download Resume
             </motion.button>
