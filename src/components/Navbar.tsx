@@ -71,7 +71,7 @@ const Navbar = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.3, delay: navLinks.length * 0.1 }}
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors"
-              onClick={() => window.open('/PortFolio/resume.pdf', '_blank')}
+              onClick={() => window.open('resume.pdf', '_blank')}
             >
               Resume
             </motion.button>
@@ -116,7 +116,7 @@ const Navbar = () => {
             <button
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition-colors w-full"
               onClick={() => {
-                window.open('PortFolio/resume1.pdf', '_blank');
+                  window.open('resume.pdf', '_blank');
                 setIsOpen(false);
               }}
             >
