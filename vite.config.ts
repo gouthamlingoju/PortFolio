@@ -4,7 +4,8 @@ import { mochaPlugins } from "@getmocha/vite-plugins";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [...mochaPlugins(process.env), react()],
+  plugins: [ react()],
+  base: '/PortFolio/',
   server: {
     allowedHosts: true,
   },
